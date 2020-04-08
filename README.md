@@ -69,7 +69,7 @@ git clone https://github.com/chrischoy/3D-R2N2.git
 ```
 cd 3D-R2N2
 conda create -n py3-theano python=3.6
-source activate py3-theano
+conda activate py3-theano
 conda install pygpu
 pip install -r requirements.txt
 ```
@@ -103,7 +103,7 @@ The demo code takes 3 images of the same chair and generates the following recon
 - Deactivate your environment when you are done
 
 ```
-deactivate
+conda deactivate
 ```
 
 
